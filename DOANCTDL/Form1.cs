@@ -26,7 +26,8 @@ namespace DOANCTDL
             picRodA.Tag = disksA = new Stack<PictureBox>();
             picRodB.Tag = disksB = new Stack<PictureBox>();
             picRodC.Tag = disksC = new Stack<PictureBox>();
-
+            firstClickDisks = new Stack<PictureBox>();
+            secondClickedDisks = new Stack<PictureBox>();
         }
 
 
