@@ -16,7 +16,7 @@ namespace DOANCTDL
         int moveCount;
         PictureBox[] disks;
         Stack<PictureBox> disksA, disksB, disksC, firstClickDisks, secondClickedDisks;
-        const int FIRSTY = 700; // hang so mac dinh vi tri toa do y
+        const int FIRSTY = 800; // hang so mac dinh vi tri toa do y
         const int DISKHEIGHT = 40; // DO CAO DIA
         public Form1()
         {
@@ -99,12 +99,7 @@ namespace DOANCTDL
                 btnPause.Text = "tam dung";
 
             }
-
-
         }
-
-        
-
         private void btnPlay_Click(object sender, EventArgs e)
         {
             //reset- giong choi lai: dat tat ca ve mac dinh 11 dong
@@ -124,9 +119,7 @@ namespace DOANCTDL
             //intialze
             nudLevel.Enabled = false; // khong cho thay doi so luong dia
             btnGiveIn.Enabled = true;  // cho bam nut chiu thua
-
             btnPause.Visible = true; /*ban dau la false*/
-
             // btnGiveIn.Enable= true;  // cho bam nut chiu thua
             btnPlay.Text = "Chơi Lại"; // chuyen doi nut choi thanh choi lai
             // hoac khong cho ban nut choi (thuy) // btnPlay.Enabled= False;
